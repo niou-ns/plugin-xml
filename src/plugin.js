@@ -21,7 +21,7 @@ const plugin = {
     xmlAllowEmptyTags: {
       type: "boolean",
       category: "XML",
-      default: false,
+      default: true,
       description: "Allow empty tag - bypass self-closing formatting.",
       since: "2.2.2"
     },    
