@@ -265,7 +265,7 @@ const printer = {
           return group([...parts, space, SLASH_CLOSE[0].image]);
         }
 
-        if (Object.keys(content[0].children).length === 0) {
+        if (Object.keys(content[0].children).length === 0 && !opts.xmlAllowEmptyTags) {
           return group([...parts, space, "/>"]);
         }
 
