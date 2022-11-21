@@ -2,7 +2,6 @@
   "name": "@prettier/plugin-xml",
   "version": "2.2.2",
   "description": "prettier plugin for XML",
-  "type": "module",
   "main": "dist/plugin.js",
   "scripts": {
     "lint": "eslint --cache .",
